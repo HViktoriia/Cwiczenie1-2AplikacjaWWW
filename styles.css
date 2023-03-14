@@ -1,0 +1,78 @@
+#part{
+    background-color: #cde0e0;
+    columns: 3;
+}
+.section_information{
+    position: relative;
+    width: 30%;
+    pointer-events: none;
+    list-style-type: none;
+}
+.pictures_in_section{
+    position: relative;
+    width: min-content;
+}
+.header_in_section{
+    position: 50%;
+}
+#quote{
+    background-color: rgb(188, 169, 206);
+    margin: 10px;
+    text-align: center;
+}
+.slideshow{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 50%;
+    align-self: center;
+}
+.flower_information{
+width: 30%;
+list-style: none;
+margin-bottom: 100%;
+}
+
+#flower_information_section{
+    column-count: 3;
+    column-width: 100%;
+    margin-top: 36px;
+    
+}
+
+.flower_information_picture{
+    width: 250px;
+    position: relative;
+}
+
+#pink-line{
+    background-color: blueviolet;
+}
+#navigation{
+    background-color: rgb(150, 128, 128);
+    column-count: 5;
+}
+#logo{
+    text-decoration: wavy;
+    font-size: 36px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.navigation-element{
+    width: 20%;
+    padding-bottom: auto;
+    overflow-wrap: break-word;
+}
+#footer{
+    background-color: rgb(104, 78, 128);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: aliceblue;
+
+}
+.contact{
+color: azure;
+margin: 15px;
+}
+.header{
+    font-size: 36px;
+}
